@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+body{ 
+  padding: 4.5rem;
+  margin: 0;
+  background-color: #a4508b;
+background-image: linear-gradient(808deg, #a4508b 0%, #5f0a87 74%);
+
+    
+  font-family:'Inter', sans-serif;
+}
+
+
+.basic { width: 769px;
+  height: 376px;
+  background: rgba(255,255,255,0.4);
+  position: relative;
+  margin: auto;
+  top: 161px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+border: 1px solid rgba(255,255,255,0.2);
+border-right: 1px solid rgba(255,255,255,0.2);
+border-bottom: 1px solid rgba(255,255,255,0.2);
+
+}
+
+.box .square{height: 100px;
+  width: 130px;
+  position: absolute;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+border: 1px solid rgba(255,255,255,0.2);
+border-right: 1px solid rgba(255,255,255,0.2);
+border-bottom: 1px solid rgba(255,255,255,0.2)
+;
+}
+
+
+.box .square:nth-child(1)
+{
+  width: 145px;
+  height: 100px;
+  top: 160px;
+  left: 300px;
+ 
+}
+
+
+
+.box .square:nth-child(2)
+{
+  bottom: 80px;
+  right: 286px;
+
+  width: 145px;
+  height: 100px;
+}
+
+  
+.box1 .square2{height: 100px;
+  width: 130px;
+  position: absolute;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+border: 1px solid rgba(255,255,255,0.2);
+border-right: 1px solid rgba(255,255,255,0.2);
+border-bottom: 1px solid rgba(255,255,255,0.2)
+;
+animation: animate 10s linear infinite;
+}
+@keyframes animate
+{
+  0%{ transform: translateY(-50px);}
+  
+
+  50%{transform: translateY(-150px);}
+}
+.box1 .square2:nth-child(0)
+{
+  bottom: 100px;
+  right: 198px;
+  width: 145px;
+  height: 100px;
+}
+
+.box1 .square2:nth-child(1)
+{
+  bottom: 20px;
+  right: 972px;
+  width: 160px;
+  height: 195px;
+
+}
+
+.box1 .square2:nth-child(2)
+{
+top: 194px;
+  right: 52px;
+  width: 160px;
+  height: 100px;
+
+}
+.box1 .square2:nth-child(3)
+{
+  bottom: 225px;
+  width: 160px;
+  height: 195px;
+
+}
+
+
+  .basic p{font-family: 'Indie Flower', cursive;
+    padding: 30px;
+  font-size: 2rem;
+font-weight: 600;
+  background-color:#a4508b;
+  
+   background-image: linear-gradient(808deg, #a4508b 0%, #5f0a87 74%);;
+  
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+
+
+.basic h1{font-family: 'Goblin One', cursive;
+  margin-left: 28px;
+  margin-top: 35px;
+  text-shadow: 1px 5px 2px #a4508b, 0 0 1em #a4508b, 0 0 0.2em #5f0a87;
+}
+
+
+@media (max-width: 360px) {
+  
+  .basic{
+    width: 18em;
+    height: 31em;
+    top: 41px;
+    left: -27%;
+}
+  .basic p{padding: 3px;}
+
+
+  .basic h1{margin-left: 18px; 
+    margin-top: 12px;
+  font-size: 18px;}
+  }
